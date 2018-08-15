@@ -12,11 +12,11 @@ attr_accessor :name, :artist
       end
 
       def artist
-        @artist = self.name #where self refers to the ARTIST instance
+        @artist = self #where self refers to the ARTIST instance
       end
 
       def artist_name
-        self.artist.name  #where self refers to the Artist Instance
+        @artist.name  #where @artist refers to the Artist Instance
       end
 
 
