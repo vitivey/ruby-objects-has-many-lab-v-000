@@ -12,8 +12,7 @@ class Artist
 
     def add_song(song)
       @songs << song
-      song.artist = @name #for the song instance, run artist method that is contained within Song class
-      song
+      song.artist = self #for the song instance, run artist method that is contained within Song class
     end
 
     def add_song_by_name
