@@ -11,8 +11,8 @@ class Author
       Post::all
     end
 
-    def add_post
-
+    def add_post(post)
+      post.author_name=self
     end
 
     def add_post_by_title
