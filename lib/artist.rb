@@ -15,8 +15,8 @@ class Artist
       song.artist = self #for the song instance, run artist method that is contained within Song class
     end
 
-    def add_song_by_name
-      new_song_instance = self.new(song)
+    def add_song_by_name(song_name)
+       
     end
 
 
