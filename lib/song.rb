@@ -11,12 +11,8 @@ attr_accessor :name, :artist
         @@all
       end
 
-      # def artist
-      #   # @artist = Artist.new(artist)
-      # end
-
       def artist_name
-        # @artist.name  #where @artist refers to the Artist Instance
+        @artist
       end
 
 
