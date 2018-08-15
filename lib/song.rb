@@ -12,7 +12,7 @@ attr_accessor :name, :artist  #artist pulls in the artist instance from the Arti
       end
 
       def artist_name
-        @name
+        
       end
 
 
