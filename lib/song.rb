@@ -7,9 +7,9 @@ attr_accessor :name, :artist  #artist pulls in the artist instance from the Arti
       @@all << self
     end
 
-      def self.all
-        @@all
-      end
+      # def self.all
+      #   @@all
+      # end
 
       def artist_name
         if @artist == nil
