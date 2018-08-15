@@ -1,5 +1,5 @@
 class Song
-attr_accessor :name, :artist
+attr_accessor :name
 @@all=[]
 
     def initialize(name)
@@ -16,7 +16,7 @@ attr_accessor :name, :artist
       end
 
       def artist_name
-        @artist.name  #where @artist refers to the Artist Instance
+        # @artist.name  #where @artist refers to the Artist Instance
       end
 
 
