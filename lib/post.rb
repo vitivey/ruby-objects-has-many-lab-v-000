@@ -1,5 +1,5 @@
 class Post
-  attr_accessor :title, :author
+  attr_accessor :title, :author  #author contains the instances of Author
   @@all=[]        #contains all instances of Post
 
     def initialize(title)
@@ -15,7 +15,7 @@ class Post
       if self.author == nil
         nil
       else
-        self.author
+        self.author.name
       end
     end
 
