@@ -11,11 +11,12 @@ attr_accessor :name, :artist
 
       def self.all
         @@all
+        binding.pry
+
       end
 
       def artist
         @artist = Artist::self.name #where self refers to the ARTIST instance
-        binding.pry
       end
 
       def artist_name
